@@ -52,7 +52,7 @@ b.active:after {
 }
 
 #class1{
-    background-color: skyblue;
+    background-color: Wheat;
     display:flex;
     flex-direction: row;
 }
