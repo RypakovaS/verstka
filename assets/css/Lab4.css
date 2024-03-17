@@ -14,7 +14,7 @@ b {
     -webkit-transition: color 0.2s ease;
     -ms-transition: color 0.2s ease;
     transition: color 0.2s ease;
-    color: #031926;
+    color: black;
     display: block;
     font-size: 0.6em;
     font-weight: bold;
@@ -38,13 +38,12 @@ b:after {
 
 b:hover {
     background: darkslateblue;
-    border: 2px solid rgba(255, 255, 255, 0.55);
     color: white;
 }
 
 b.active {
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid white;
+    color: white;
 }
 
 b.active:after {
