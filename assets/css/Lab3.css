@@ -1,0 +1,127 @@
+.field-ad{
+    width: 200px;
+    height: 200px;
+    /* margin: 40px auto; */
+}
+
+.block_animation{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-image: url("../images/ware2.jpg");
+    background-size: 200px 200px;
+}
+
+/* ....................FIGURES.................................. */
+
+.pot{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    opacity: 0%;
+}
+
+#pot{
+    width: 130px;
+    height: 130px;
+}
+
+.cap{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 47px;
+    opacity: 0%;
+}
+
+#cap{
+    width: 90px;
+    height: 90px;
+}
+
+/* ....................TEXT.................................. */
+
+.text1{
+    position: absolute;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    margin-left: 65px;
+    opacity: 0%;
+}
+
+.text2{
+    position: absolute;
+    transform: rotate(0.75turn);
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: -60px;
+    opacity: 0%;
+}
+
+/* ....................ANIMATION.................................. */
+
+.block_animation:hover .pot{
+    animation: appearance 5s infinite;
+}
+
+.block_animation:hover .text1{
+    opacity: 100%;
+}
+
+.block_animation:active .pot{
+    opacity: 100%;
+    animation: none;
+}
+
+.block_animation:active .cap{
+    opacity: 100%;
+    animation: openclose 5s infinite;
+}
+
+.block_animation:active .text1{
+    animation: blackword 5s infinite;
+}
+
+.block_animation:active .text2{
+    animation: redword 5s infinite;
+}
+
+.block_animation:active {
+    animation: shaking 1s infinite;
+}
+
+/* ....................KEYFRAMES.................................. */
+
+@keyframes blackword {
+    0%, 100% {opacity: 0%;}
+    50% {opacity: 100%;}
+}
+
+@keyframes redword {
+    0%, 100% {opacity: 100%;}
+    50% {opacity: 0%;}
+}
+
+@keyframes openclose {
+    0%, 100% {transform: rotate(1turn);}
+    50% {transform: rotate(0.9turn); margin-top: 65px;}
+}
+
+@keyframes shaking {
+    0% {transform: translateX(10px)}
+    25%  {transform: translateX(-10px)}
+    50%  {transform: translateX(10px)}
+    75%  {transform: translateX(-10px)}
+    100% {transform: translateX(10px)}
+}
+
+@keyframes appearance {
+    0%, 100% {opacity: 0% ;  transform: scale(1);}
+    50% {opacity: 100%; transform: scale(1.3);}
+}
+
+
+

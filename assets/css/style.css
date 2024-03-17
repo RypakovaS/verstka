@@ -1,1 +1,175 @@
-//fgkhfjku
+body{
+    margin: 0;
+    background: skyblue;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.field_logo{
+
+}
+
+.container {
+    width:100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container1 {
+
+    align-items: center;
+    width:100%;
+    max-width: 600px;
+    margin-left: 60px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/intro.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro_inner{
+    margin: 0;
+    width: 100%;
+    max-width: 800px;
+
+    text-align: left;
+}
+
+.intro_title{
+    color: white;
+    font-size: 130px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+.intro_tell{
+
+    color: white;
+    font-size: 22px;
+    font-weight: 550;
+}
+.intro_tell1, .intro_tell2, .intro_tell3{
+    margin-top: 100px;
+    color: white;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.button1, .button2, .button3, .button4, .button5{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 20px;
+    border: 3px solid white;
+
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    transition: background 0.1s linear, color 0.1s linear;
+}
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+.header{
+    width: 100%;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+.nav{
+    font-size: 16px;
+    margin: 0 200px;
+}
+
+.nav_link{
+    display:inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    color: lightsteelblue;
+    text-decoration: none;
+    transition: color 0.1s linear;
+}
+
+.nav_link:hover {
+    color: white;
+}
+
+.footer{
+    color: black;
+}
+
+.actors{
+    margin: 0 20px;
+}
+
+.actors_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.act1{
+    width: 20%;
+}
+
+.act2{
+    width: 70%;
+}
+.actor1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.actor2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.container_tr{
+    width:100%;
+    max-width: 600px;
+    margin-left: 60px;
+}
+
+.button_index{
+    position: absolute;
+    top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 3px solid white;
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+
+.button_index:hover{
+    background-color: white;
+    color: darkblue;
+}
+

@@ -1,0 +1,69 @@
+.body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 1;
+}
+
+
+b {
+    -moz-transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    -ms-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    color: #031926;
+    display: block;
+    font-size: 0.6em;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    line-height: 1.75;
+    outline: 0;
+    padding: 1.5em 1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 16.5em;
+}
+
+b:after {
+    -moz-transition: max-width 0.2s ease;
+    -webkit-transition: max-width 0.2s ease;
+    -ms-transition: max-width 0.2s ease;
+    transition: max-width 0.2s ease;
+    max-width: 0;
+}
+
+b:hover {
+    background: darkslateblue;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    color: white;
+}
+
+b.active {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+b.active:after {
+    max-width: 100%;
+}
+
+#class1{
+    background-color: skyblue;
+    display:flex;
+    flex-direction: row;
+}
+
+#class2{
+    background-color: slateblue;
+    display:flex;
+    flex-direction: row;
+}
+
+#pst{
+    font-weight: bold;
+}
+

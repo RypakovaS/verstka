@@ -1,0 +1,50 @@
+.field_logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(white, wheat);
+}
+.petal_1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    background: darkblue;
+    border-radius: 100% 0;
+}
+.petal_2 {
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    background: darkblue;
+    border-radius: 100% 0;
+}
+.petal_3 {
+    position: absolute;
+    transform: rotate(-90deg);
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    background: darkblue;
+    border-radius: 100% 0;
+}
+.petal_4 {
+    position: absolute;
+    transform: rotate(-135deg);
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    background: darkblue;
+    border-radius: 100% 0;
+}
+.circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: 20px 20px;
+    background: white;
+    border-radius: 50%;
+}
