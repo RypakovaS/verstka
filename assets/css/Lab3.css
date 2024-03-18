@@ -13,8 +13,6 @@
     background-size: 200px 200px;
 }
 
-/* ....................FIGURES.................................. */
-
 .pot{
     position: absolute;
     margin-top: 50px;
@@ -39,8 +37,6 @@
     height: 90px;
 }
 
-/* ....................TEXT.................................. */
-
 .text1{
     position: absolute;
     font-size: 13px;
@@ -60,8 +56,6 @@
     margin-left: -60px;
     opacity: 0%;
 }
-
-/* ....................ANIMATION.................................. */
 
 .block_animation:hover .pot{
     animation: appearance 5s infinite;
@@ -92,8 +86,6 @@
 .block_animation:active {
     animation: shaking 1s infinite;
 }
-
-/* ....................KEYFRAMES.................................. */
 
 @keyframes blackword {
     0%, 100% {opacity: 0%;}
