@@ -1,0 +1,84 @@
+.task-exit{
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateY(-5%) translateX(-41%);
+    display: flex;
+    flex-direction: row;
+}
+#task{
+    width: 600px;
+    background-color: #a4a4ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.test-tubes-area{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-45%) translateX(-50%);
+    height: 350px;
+    width: 800px;
+    /* border: 1px solid #a4a4ff; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.count{
+    margin: 30px 0px 10px;
+    font-family: Arial;
+    text-align: center;
+    color: black;
+}
+
+/* стиль для всей доски */
+#game-board {
+    /* делаем выравнивание всех элементов по центру */
+    display: flex;
+    align-items: center;
+    /* добавляем выравнивание по вертикали */
+    flex-direction: column;
+}
+
+/* стиль для строки */
+.letter-row {
+    /* каждая клетка пусть будет в своём отдельном контейнере */
+    display: flex;
+}
+
+/* стиль для клетки */
+.letter-box {
+    /* рисуем границу */
+    border: 2px solid gray;
+    border-radius: 3px;
+    /* добавляем отступы */
+    margin: 2px;
+    /* размер шрифта */
+    font-size: 2.5rem;
+    font-weight: 700;
+    /* высота и ширина клетки */
+    height: 3rem;
+    width: 3rem;
+    /* выравниваем содержимое по центру */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* делаем все буквы большими */
+    text-transform: uppercase;
+}
+
+/* добавляем жирную обводку у заполненных клеток */
+.filled-box {
+    border: 3px solid black;
+}
+
+
+
