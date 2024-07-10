@@ -1,0 +1,66 @@
+
+.intro{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-180%) translateX(-50%);
+    padding: 50px 60px;
+    background-color: white;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: darkblue;
+}
+
+#play-autho{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 40px 50px;
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.intro_title{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+input {
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid darkblue;
+    margin-bottom: 5px;
+    padding: 3px;
+    text-align: center;
+    color: darkblue;
+}
+
+.btn {
+    font-size: 18px;
+    color: darkblue;
+    padding: 15px 20px 5px;
+    border-radius: 10px;
+    transition: background .1s linear, color .1s linear, font-weight .1s linear;
+}
+
+.btn:hover{
+    background-color: coral;
+    color: wheat;
+    font-weight: bold;
+}
+
+
