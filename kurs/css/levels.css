@@ -1,0 +1,126 @@
+.game-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.hello_words{
+    width: 800px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateY(-20%) translateX(-50%);
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 9% 20px;
+    background-color: white;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+    color: darkblue;
+}
+
+#hello-name{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.hello_text{
+    font-size: 27px;
+}
+
+.bg_levels{
+    height: 100%;
+    justify-content: space-between;
+    /*animation-name: changecolors;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;*/
+}
+
+@keyframes changesize {
+    from {
+        width: 250px;
+        height: 250px;
+        font-size: 30px;
+    }
+    50%{
+        width: 150px;
+        height: 150px;
+        margin-left: 50%;
+        margin-top: 50%;
+        margin-right: 30%;
+        margin-bottom: 30%;
+        font-size: 18px;
+    }
+    to{
+        width: 250px;
+        height: 250px;
+        font-size: 30px;
+    }
+}
+
+.levels{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: 50px;
+}
+
+.level{
+    width: 250px;
+    height: 250px;
+    margin: 20px 0px 20px 60px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level:hover{
+    text-shadow:0 0 10px white;
+}
+
+.not-fin{
+    background-color: darkblue;
+    color: white;
+    animation-name: changesize;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+.fin{
+    border: 3px dashed darkblue;
+    background-color: whitesmoke;
+    color: darkblue;
+}
+.rates{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-right: 50px;
+}
+.rating{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20%;
+    text-align:center;
+    line-height: 250px;
+    background-color: darkblue;
+    color: white;
+
+}
+.rating:hover{
+    text-shadow:0 0 10px white;
+}
