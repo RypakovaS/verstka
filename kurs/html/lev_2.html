@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/lev_1.css">
+    <title>Уровень 2</title>
+</head>
+<body>
+<div class="hidden" id="win1">
+    <div class="cl-btn-6">
+        <div class="cl-btn-6-in">
+            <a href="levels.html" class="cl-btn-6-txt">Закрыть</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="hidden" id="win">
+    <div id="choose">
+        <a id="ll1" href="levels.html" class="main">Вернуться к списку уровней</a>
+        <a id="ll1" href="lev_3.html" class="next">Следующий уровень</a>
+    </div>
+</div>
+
+<div class="hidden" id="sun">
+    <div id = circle></div>
+    <div id = sunbeam1></div>
+    <div id = sunbeam2></div>
+    <div id = sunbeam3></div>
+    <div id = sunbeam4></div>
+    <div id = sunbeam5></div>
+    <div id = sunbeam6></div>
+    <div id = sunbeam7></div>
+    <div id = sunbeam8></div>
+</div>
+
+<div class="hidden" id="lose">
+    <a id="ll2" href="lev_2.html" class="main">Начать заново</a>
+</div>
+
+<div class="game-content">
+    <div class="board">
+        <div id="game-board">
+            <div id="word"></div>
+            <button id="arrow1"> > </button>
+            <button id="arrow2"> < </button>
+            <div class="hidden" id="pieces"></div>
+            <div class="hidden" id="pieces1"></div>
+        </div>
+    </div>
+    <div class="field">
+        <div class="hidden" id="exit">
+            <div class="cl-btn-6">
+                <div class="cl-btn-6-in">
+                    <a href="levels.html" class="cl-btn-6-txt">Закрыть</a>
+                </div>
+            </div>
+        </div>
+        <div id="level">
+            <div id="num_level" data-info="2"> Уровень 2 </div>
+        </div>
+        <div id="rules">
+            <div id="rulestxt"> Собери слово из его частей. Теперь кусочков стало больше, а также увеличилось заданное время. Удачи! </div>
+        </div>
+        <div class="buttons">
+            <div id="time">
+                <div id="countdown"></div>
+            </div>
+            <div id="help">
+                <div class="hidden" id="helps"  onclick="uppearhint()"> Подсказка </div>
+            </div>
+            <div class="hidden" id="hint"></div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="../js/lev_2.js"></script>
+</body>
+</html>

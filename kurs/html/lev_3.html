@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/lev_3.css" rel="stylesheet">
+    <title>Финал</title>
+</head>
+<body>
+
+<div class="hidden" id="win1"></div>
+
+<div class="hidden" id="win">
+    <div class="choose">
+        <a id="ll1" href="levels.html" class="main">Вернуться к списку уровней</a>
+        <a id="ll1" href="rating.html" class="next">Посмотреть рейтинг</a>
+    </div>
+</div>
+
+<div class="hidden" id="sun">
+    <div id = circle></div>
+    <div id = sunbeam1></div>
+    <div id = sunbeam2></div>
+    <div id = sunbeam3></div>
+    <div id = sunbeam4></div>
+    <div id = sunbeam5></div>
+    <div id = sunbeam6></div>
+    <div id = sunbeam7></div>
+    <div id = sunbeam8></div>
+</div>
+
+<div class="hidden" id="lose">
+    <a id="ll2" href="lev_3.html" class="main">Начать заново</a>
+</div>
+
+<div class="game-content">
+    <div class="board">
+        <div class="text">
+            <div id="game-board"></div>
+        </div>
+    </div>
+    <div class="field">
+        <div class="hidden" id="exit">
+        <div class="cl-btn-6">
+            <div class="cl-btn-6-in">
+                <a href="levels.html" class="cl-btn-6-txt">Закрыть</a>
+            </div>
+        </div>
+        </div>
+        <div class="rules">
+            <div id="rulestxt">Основная цель игры — угадать спрятанное слово за 6 попыток. В каждую строку нужно ввести любой набор 6 букв, чтобы узнать, какие буквы есть в искомом слове. В зависимости от того, какое слово вы ввели, буквы будут выделены тремя цветами:<br>  <br>
+                <div class="grey"></div>Серая клетка - буквы нет в целевом слове.<br><br>
+                <div class="yellow"></div>Желтая клетка - буква есть в слове, но не на том месте.<br>  <br>
+                <div class="green"></div>Зеленая клетка - буква в слове и в правильном месте.<br>
+                <br>
+                Для победы нужно полностью угадать спрятанное слово (все буквы зеленого цвета).</div>
+        </div>
+        <div class="buttons">
+        <div class="time">
+            <div id="countdown"></div>
+        </div>
+        <div class="help">
+            <div class="hidden" id="helps" onclick="uppearhint()"> Подсказка </div>
+        </div>
+            <div class="hidden" id="hint"></div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="../js/lev_3.js"></script>
+</body>
+</html>
